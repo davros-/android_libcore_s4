@@ -70,10 +70,6 @@ core_cflags := -fno-strict-aliasing
 core_cppflags := -fno-strict-aliasing
 
 
-core_cflags := -fvisibility=hidden -fno-strict-aliasing
-core_cflags += '-DGCC_HIDDEN=__attribute__((visibility("hidden")))'
-core_cppflags := -fvisibility-inlines-hidden -fno-strict-aliasing
-
 
 #
 # Build for the target (device).
